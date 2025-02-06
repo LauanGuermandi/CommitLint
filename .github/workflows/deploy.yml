@@ -2,8 +2,8 @@ name: Deploy to NuGet
 
 on:
   push:
-    tags:
-      - "v1.0.0"
+    branches:
+      - main
 
 jobs:
   deploy:
