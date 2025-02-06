@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{1AF4F29E-BC69-4943-B245-8C00FBABE6E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5BC5D6B6-9F90-4AE8-BDCA-473DD95C6C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommitLint", "src\CommitLint\CommitLint.csproj", "{E11790E5-0A0E-4D80-9A65-FF1EDF9A086F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommitLint.UnitTests", "tests\CommitLint.UnitTests\CommitLint.UnitTests.csproj", "{D1DC0421-3789-4ACB-8180-D67C3B2AF965}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E11790E5-0A0E-4D80-9A65-FF1EDF9A086F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E11790E5-0A0E-4D80-9A65-FF1EDF9A086F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E11790E5-0A0E-4D80-9A65-FF1EDF9A086F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E11790E5-0A0E-4D80-9A65-FF1EDF9A086F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DC0421-3789-4ACB-8180-D67C3B2AF965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DC0421-3789-4ACB-8180-D67C3B2AF965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DC0421-3789-4ACB-8180-D67C3B2AF965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DC0421-3789-4ACB-8180-D67C3B2AF965}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E11790E5-0A0E-4D80-9A65-FF1EDF9A086F} = {1AF4F29E-BC69-4943-B245-8C00FBABE6E8}
+		{D1DC0421-3789-4ACB-8180-D67C3B2AF965} = {5BC5D6B6-9F90-4AE8-BDCA-473DD95C6C4F}
+	EndGlobalSection
+EndGlobal
