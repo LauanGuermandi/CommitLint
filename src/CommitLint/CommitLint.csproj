@@ -9,7 +9,7 @@
         <Authors>Your Name</Authors>
         <Description>A CLI tool for validating commit messages.</Description>
         <PackageTags>git commit lint cli</PackageTags>
-        <PackageLicenseExpression>BSD 2-Clause</PackageLicenseExpression>
+        <PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/LauanGuermandi/CommitLint</RepositoryUrl>
     </PropertyGroup>
 
