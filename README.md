@@ -30,7 +30,7 @@ dotnet tool install Husky
 dotnet husky add commit-msg -c "CommitLint .git/COMMIT_EDITMSG"
 ```
 
-📦 Installation
+## 📦 Installation
 
 Install Globally
 ```sh
@@ -42,7 +42,7 @@ Install Locally
 dotnet tool install --local CommitLint
 ```
 
-📜 License
+## 📜 License
 Licensed under the **BSD 2-Clause**.
 
 ---
