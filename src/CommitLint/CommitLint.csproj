@@ -6,7 +6,7 @@
         <PackAsTool>true</PackAsTool>
         <ToolCommandName>commitlint</ToolCommandName>
         <Version>1.0.1</Version>
-        <Authors>Your Name</Authors>
+        <Authors>Lauan Guermandi</Authors>
         <Description>A CLI tool for validating commit messages.</Description>
         <PackageTags>git commit lint cli</PackageTags>
         <PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>

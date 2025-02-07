@@ -24,10 +24,13 @@ Example commit messages:
 To automatically enforce commit message rules before every commit, use Husky.NET:
 
 ```sh
-dotnet husky add pre-commit "CommitLint .git/COMMIT_EDITMSG"
+dotnet new tool-manifest
+dotnet tool install CommitLint
+dotnet tool install Husky
+dotnet husky add commit-msg -c "CommitLint .git/COMMIT_EDITMSG"
 ```
 
-📦 Installation
+## 📦 Installation
 
 Install Globally
 ```sh
@@ -39,7 +42,7 @@ Install Locally
 dotnet tool install --local CommitLint
 ```
 
-📜 License
+## 📜 License
 Licensed under the **BSD 2-Clause**.
 
 ---
