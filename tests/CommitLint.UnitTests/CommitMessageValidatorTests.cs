@@ -13,6 +13,7 @@ public class CommitMessageValidatorTests
     [InlineData("refactor(database): optimize queries", true)]
     [InlineData("test(unit): add unit tests for CommitMessageValidator", true)]
     [InlineData("chore(release): bump version to 1.0.1", true)]
+    [InlineData("ci: fix pipeline sonar step", true)]
     [InlineData("feat: add new feature without scope", true)]
     [InlineData("invalid message format", false)]
     [InlineData("fix(auth)fix bug", false)]
